@@ -1,0 +1,30 @@
+name: HealthPlus
+version: 1.3.1
+author: glisco03
+main: com.glisco03.HealthPlus.main.main
+commands:
+  setmaxhealth:
+    usage: /<command> <Playername> <Positive Number lower than 1024> 
+    description: Controls you maximum health
+  sethealth:
+    usage: /<command> <Playername> <Number lower than/equal to the Player's maximum health> 
+    description: Controls your health
+  setfood:
+    usage: /<command> <Playername> <Number lower than/equal to 20>  
+    description: Controls your Hunger
+  setsaturation:
+    usage: /<command> <Playername> <Number lower than/equal to 20> 
+    description: Controls your Saturation
+  hstatus:
+    usage: /<command> <Playername>
+    description: Shows health Information about the player
+  heal:
+    usage: /<command> <Playername>
+    description: Sets all values of this Player to max
+  addhealth:
+    usage: /<command> <Playername> <Positive Number>
+    description: Raises the player's max health
+  removehealth:
+    usage: /<command> <Playername> <Positive Number>
+    description: Lowers the player's max health
+    
